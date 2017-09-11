@@ -8,5 +8,5 @@ public class StupidRunner
 		StupidController appController = new StupidController();
 		appController.start();
 	}
-
+	
 }

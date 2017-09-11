@@ -26,6 +26,7 @@ public class StupidController
 		
 	}
 	
+	@SuppressWarnings("resource")
 	private void testScanner()
 	{
 		Scanner firstScanner;
