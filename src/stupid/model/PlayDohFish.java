@@ -1,26 +1,26 @@
 package stupid.model;
 
-import stupid.model.PlayDohCircle;
+import stupid.model.PlayDohFish;
 
-public class PlayDohCircle
+public class PlayDohFish
 {
 	//Declaration Section
 	//Data member Section
 	private int size;
-
-	public PlayDohCircle()
+	
+	public PlayDohFish()
 	{
 		this.size = 5;
 	}
 	
-	public PlayDohCircle(int size)
+	public PlayDohFish(int size)
 	{
 		this.size = size;
 	}
-
+	
 	public String toString()
 	{
-		String description = "I am a circle, my size is " + size;
+		String description = "I am a fish, I am " + size + "ft long.";
 		return description;
 	}
 

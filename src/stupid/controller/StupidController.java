@@ -1,8 +1,7 @@
 package stupid.controller;
 
-import java.util.Scanner;
-
 import stupid.model.PlayDohCircle;
+import stupid.model.PlayDohFish;
 
 public class StupidController
 {
@@ -16,24 +15,28 @@ public class StupidController
 		System.out.println("I hate this command so much!!! :D");
 		System.out.println("FRACK THIS COMMAND!!! I'm done, goodbye. :D");
 		
-		testScanner();
 		PlayDohCircle firstCircle = new PlayDohCircle();
 		PlayDohCircle secondCircle;
 		secondCircle = new PlayDohCircle();
 		
 		System.out.println("Look I made a circle");
 		System.out.println(firstCircle);
+		System.out.println(secondCircle);
+		
+		PlayDohCircle thirdCircle = new PlayDohCircle(10);
+		System.out.println(thirdCircle);
+		
+		PlayDohFish firstFish = new PlayDohFish();
+		PlayDohFish secondFish;
+		secondFish = new PlayDohFish();
+		
+		System.out.println("Omg I mad a fish!");
+		System.out.println(firstFish);		
+		System.out.println(secondFish);
+		
+		PlayDohFish thirdFish = new PlayDohFish(10);
+		System.out.println(thirdFish);
 		
 	}
 	
-	@SuppressWarnings("resource")
-	private void testScanner()
-	{
-		Scanner firstScanner;
-		firstScanner = new Scanner(System.in);
-		System.out.println("What is your favorite food?");
-		String answer = firstScanner.next();
-		System.out.println("Cool, you like " + answer + " then? Well then, I don't like you, goodbye");
-	}
-
 }
