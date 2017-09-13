@@ -43,6 +43,12 @@ public class StupidController
 		PlayDohFish thirdFish = new PlayDohFish(10);
 		System.out.println(thirdFish);
 		
+		System.out.println("what size should we change it to?");
+		int updated = myScanner.nextInt();
+		thirdCircle.setSize(updated);
+		System.out.println("the circle now is....");
+		System.out.println(thirdCircle);
+		
 		testScanner();
 	}
 			
